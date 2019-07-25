@@ -14,18 +14,17 @@
 <body>
 <div class="container" style="margin-top: 15px">
     <form action="/Pro/main" method="post" class="form">
-        <div class="row">
-            <div class="col-1">Login</div>
-            <div class="col-4"><input name="login" class="padding-left" type="login" placeholder="login"/></div>
+        <div class="login">
+            <div class="label">Login</div>
+            <input name="login" type="login" placeholder="user123"/>
         </div>
-        <div class="row">
-            <div class="col-1">Password:</div>
-            <div class="col-11"><input name="pass" class="padding-left" type="password" placeholder="password"/></div>
+
+        <div class="password">
+            <div class="label">Password:</div>
+            <input name="pass" type="password" placeholder="qwerty"/>
         </div>
-        <div class="row">
-            <div class="col-1">Press:</div>
-            <div class="col-4"><input type="submit" value="Submit"></div>
-        </div>
+        <button class="btn">submit</button>
+
     </form>
 </div>
 </body>
